@@ -1,0 +1,19 @@
+version: "3.8"
+   
+services:
+  db:
+    image: postgres
+    container_name: tetris-db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+  web:
+    build: .
+    container_name: tetris-web
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db

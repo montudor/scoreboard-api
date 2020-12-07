@@ -1,0 +1,8 @@
+media/*
+static/*
+db.sqlite3
+__pycache__/
+env
+.env
+docker-compose.override.yml
+*.pyproj
