@@ -5,7 +5,7 @@
             "name": "Python: Run Django Server",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}\\manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": [
                 "runserver"
             ],
