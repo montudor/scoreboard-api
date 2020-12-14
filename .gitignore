@@ -3,6 +3,7 @@ static/*
 db.sqlite3
 __pycache__/
 env
+.venv
 .env
 docker-compose.override.yml
 *.pyproj
